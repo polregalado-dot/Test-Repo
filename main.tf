@@ -10,7 +10,7 @@ data "aws_ami" "ubuntu" {
     values = ["ubuntu/images/hvm-ssd-gp3/ubuntu-noble-24.04-amd64-server-*"]
   }
 
-  owners = ["917914001307"] # Canonical
+  owners = ["099720109477"] # Canonical
 }
 
 resource "aws_instance" "app_server" {
